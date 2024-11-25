@@ -18,6 +18,7 @@ export default function Home() {
   return (
     <>
       <p>PROYECTO G3</p>
+      <p>Prueba Rama</p>
     </>
   );
 }
