@@ -5,6 +5,8 @@ export default function Home() {
       <p>PROYECTO G3</p>
       <p>Prueba Rama</p>
       <p>PROYECTO G3 25/11</p>
+      <p>Por favor funcioná!</p>
+
     </>
   );
 }
