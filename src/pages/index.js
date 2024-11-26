@@ -8,8 +8,6 @@ export default function Home() {
       <p>Por favor funcioná!</p>
       <p>Hola xicoss</p>
       <p>si no funciona, abandono</p>
-      
-
     </>
   );
 }
