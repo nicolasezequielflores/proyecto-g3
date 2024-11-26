@@ -7,6 +7,7 @@ export default function Home() {
       <p>PROYECTO G3 25/11</p>
       <p>Por favor funcioná!</p>
       <p>Hola xicoss</p>
+      <p>si no funciona, abandono</p>
       
 
     </>
