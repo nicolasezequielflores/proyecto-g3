@@ -1,9 +1,17 @@
 import react from 'react'
-const carrusel=()=>{
-    return(
-        <>
-    <p>esto es un carrusel</p>
-        </>
-    )
-}
-<p>hola gente como estan</p>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
