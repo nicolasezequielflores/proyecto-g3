@@ -6,15 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "api": "json-server --port 5000 --watch src/db/db.json"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106",
-    "next": "15.0.3"
+    "react-dom": "19.0.0-rc-66855b96-20241106"
   },
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "15.0.3"
   }
 }
+
+
